@@ -1,0 +1,12 @@
+.center
+  #app.graph
+    .bar(v-for="data in datas", :style="gen_style(data.value)")
+      span.text {{data.value}}
+    .form
+      .autobutton
+        input.auto(type="checkbox" id="checkbox" v-model="checked" 
+                   @click="auto(checkbox.checked)")
+        label Auto_Run
+      .div(v-for="(data,i) in datas")
+        label {{i}}
+        input.number( v-model="data.value", type="number")

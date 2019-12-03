@@ -1,0 +1,58 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.graph {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  vertical-align: bottom;
+}
+
+.bar {
+  width: 30px;
+  border: solid;
+  margin-right: 20px;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  position: relative;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  bottom: -30px;
+}
+
+.form {
+  margin-left: 30px;
+}
+
+.form .autobutton {
+  margin-bottom: 10px;
+}
+
+.form .div {
+  margin-bottom: 10px;
+}
+
+.form .div .number {
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
